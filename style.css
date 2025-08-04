@@ -1095,19 +1095,12 @@ select.form-control {
   height: 350px;
 }
 
-.profile-image {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  overflow: hidden;
-  position: relative;
-  z-index: 2;
-  margin: 25px;
-  background: var(--gradient-primary);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: var(--shadow-lg);
+.profile-image img.actual-profile-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 .profile-placeholder {
