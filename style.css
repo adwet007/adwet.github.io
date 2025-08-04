@@ -1124,6 +1124,7 @@ select.form-control {
     border: 4px solid #ffffff66; /* Semi-transparent white ring */
     border-radius: 50%;
     z-index: -1;
+    animation: rotate 20s linear infinite;
 }
 
 
